@@ -65,7 +65,7 @@
 
  ############################################################ rouate table  
 
- resource "aws_route_table" "Gr10_priVATE_RT" {
+ resource "aws_route_table" "Gr10_private_rt" {
 
    vpc_id = aws_vpc.Gr10_vpc.id
    route {
@@ -75,7 +75,7 @@
    }
 
    tags = {
-     Name = "Gr10_Private_RT"
+     Name = "Gr10_Private_rt"
    }
  }
 
