@@ -52,7 +52,7 @@
    subnet_id     = aws_subnet.Gr10_public_subnet.id
 
    tags = {
-     Name = "AO_NAT_getway"
+     Name = "Gr10_NAT_getway"
    }
  }
 
